@@ -14,7 +14,6 @@ h1,h2,h3,h4,h5{
 a{
     font-weight: 700;
     transition: all 0.4s ease;
-    text-transform: uppercase;
 }
 
 img{
@@ -123,7 +122,6 @@ section{
 #productos h5 {
    color: #BF213E ;
    font-size: 50px;
-   font-family: 'Poopins';
    
 }
 /********************TEAM CARD SECTION**********************/
@@ -208,33 +206,17 @@ form .form-control {
     background-color: #bf213ed8;
  }
  
- /**********FOOTER SECTION*****************/
+ /********FOOTER***********/
 
- footer h4,h5{
-     color: #73482F;
+ footer {
+    background-color: #F2F2F2 ;
  }
 
- .footer {
-    padding-top: 80px;
-    padding-bottom: 30px;
+ footer a {
+    color: #73482F;
+    text-decoration: none;
+    font-size: 16px;
  }
- 
- footer .footer-links a,
- footer .social-icons a {
+ footer h5{
     color: #73482F;
  }
- 
- footer .social-icons a {
-    font-size: 24px;
- }
- 
- footer .footer-links a {
-    display: block;
-    font-weight: 400;
- }
- 
- footer .social-icons a:hover,
- footer .footer-links a:hover {
-    color: #BF213E;
- }
-
